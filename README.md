@@ -6,7 +6,6 @@ To run the full program, simply run Vid_ENF_Time_Detection.m. This will call on 
 
 The program is built around an ENF dataset with either a sampling frequency of 1/4 (data received from TenneT) or 1/1.05 (data received from the NFI). In the subfunction get_ENF.m, the choice can be made to select your own sample frequency by choosing other. The code will adjust to the sampling frequency.
 
-Included is a test ENF dataset with a sampling frequency of ¼, and a test-video of 5 minutes (recorded at 13:44:12).
 A frequency-range and a peak height selection are both available. It is recommended to take the frequency range in between 30 and 150 (below 30, most likely no ENF will be found).
 For the peak height, it is recommended to zoom in a few times in order to take the low-power peaks into account.
 
